@@ -68,6 +68,6 @@
       4868, 5394, 5047, 1197, 845, 822, 4808, 5460, 4890,
       4711, 5569, 891, 278, 5750, 5346, 5374, 1951, 197,
     ];
-    lista.sort().forEach(agregar);
+    lista.sort(function(a, b) { return a - b; }).forEach(agregar);
   </script>
 </body>
